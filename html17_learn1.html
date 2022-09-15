@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- this refresh site every 5 second
+    <meta http-equiv="refresh" content="5">
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleks Wachowiak">
+    <link type="text/css" rel="stylesheet" href="css8_learn1.css">
+    <script type="text/javascript" src="js3_learn1.js"></script>
+    <title>Document</title>
+</head>
+<body class="darkmode" onload="writeLastModificationDate(); writeTodaysDate()">
+    <!-- id is stronger than class, so "topping" parameters overcome "top_bar" -->
+    <div class="top_bar" id="topping">
+        <b>Todays date:</b> <span id="todayDate"></span>
+        <b>Last update:</b> <span id="lastModified"></span>
+    </div>
+    <div id="full_page">
+        <h1 class="head_1" >This is not 5 sec. refreshing site </h1> 
+        <span class="vertical_menu">1st option <br> 2nd option <br> etc.</span>
+        <span id="page_stuff">This is <span style="font-style:oblique; text-decoration-line:underline">content</span> on page</span>
+        <div id="clock"></div>
+    </div>
+</body>
+</html>
