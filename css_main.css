@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(0, 55, 57);
+
+}
+#full_page{
+    color:white;
+    font-family:Helvetica, sans-serif, sans-serif;
+    font-size: large;
+    width: 100%;
+}
+#title{
+    text-align: center;
+    position:relative;
+    top:-5px;
+}
+.menu{
+    border-radius: 4px;
+    border:1px solid rgba(117, 117, 117, 0.512);
+    background-color:rgba(2, 20, 20, 0.627);
+}
+#top_bar{
+    overflow: hidden;
+    position:sticky;
+    height: max-content;
+    background-color: rgb(5, 44, 44,80%);
+    top:0px;
+    z-index: 2;
+    align-items: center;
+}
+#wolf_howling{
+    width:50%;
+    position:relative;
+    float: right;
+    top:-20px;
+}
+#vertical_menu{
+    height:700px;
+    width: 10%;
+    position:absolute;
+    z-index: 1;
+    top:150px;
+    padding: 3px;
+    float:left;
+    text-align: center;
+    padding: 5px;
+    padding-top:10px;
+}
+.informations{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    width: 30%;
+    text-align: justify;
+}
+#intro{
+    left:15%;
+    top: 100px;
+}
+.options{
+    margin:1px;
+    display: flex;
+    place-content: center;
+}
+.options td:hover{
+    background-color: rgb(118, 118, 118);
+    
+}
+.options td{
+    border:1px solid rgba(117, 117, 117, 0.906);
+    border-radius: 3px;
+    padding-inline: 10px;
+    cursor:pointer;
+    background-color: rgb(5, 44, 44);
+}
+
+#down_bar{
+    display:block;
+    width: 100%;
+    position:relative;
+    top:400px;
+    text-align: center;
+    font-style: italic;
+    clear: right;
+}
