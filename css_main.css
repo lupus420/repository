@@ -17,9 +17,8 @@ body{
     border-radius: 4px;
     border:1px solid rgba(117, 117, 117, 0.512);
     background-color: rgb(5, 44, 44,80%);
-    ;
 }
-#top_bar{
+.top_bar{
     overflow: hidden;
     position:sticky;
     height: max-content;
@@ -29,6 +28,8 @@ body{
     align-items: center;
     overflow-x: auto;
     overflow-y: hidden;
+    width: fit-content;
+    margin:auto;
 }
 #wolf_howling{
     width:50%;
@@ -36,17 +37,19 @@ body{
     float: right;
     top:-20px;
 }
-#vertical_menu{
-    height:700px;
+.vertical_menu{
+    height:fit-content;
     width: 10%;
-    position:absolute;
+    position:fixed;
     z-index: 1;
     top:150px;
     padding: 3px;
     float:left;
     text-align: center;
+    align-items: center;
     padding: 5px;
     padding-top:10px;
+    overflow-wrap: break-word;
 }
 .informations{
     font-size: 15px;
@@ -60,12 +63,16 @@ body{
 }
 #intro{
     left:15%;
-    top: 100px;
+    float: left;
+    top:20px;
 }
 .options{
     margin:1px;
     display: flex;
+
     place-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .options td:hover{
     background-color: rgb(118, 118, 118);
@@ -77,6 +84,7 @@ body{
     padding-inline: 10px;
     cursor:pointer;
     background-color: rgb(5, 44, 44);
+    text-align: center;
 }
 
 #down_bar{

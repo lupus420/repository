@@ -11,13 +11,46 @@
 <body onload="writeTodaysDate();writeLastModificationDate();">
     <div id="full_page">
         <h1 id="title">The Howling's<sup><sup>&#174</sup></sup></h1>
-        <div class="menu" id="top_bar">
+        <div class="menu top_bar">
             <table class="options">
                 <tr><td>Introduction</td><td>Our staff</td><td>Achivements</td><td>Location</td><td>Contact</td></tr>
             </table>
         </div>
         <div id="page_content">
-            <div class="menu" id="vertical_menu">Option1</div>
+            <div class="menu vertical_menu">
+                <table class="options">
+                    <tr>
+                        <td onclick="goToTitle();">Main page</td>
+                    </tr>
+                    <tr>
+                        <td onclick="goToPar1();">Paragraph 1</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 2</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 3</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 4</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 5</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 6</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 7</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 8</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph 9</td>
+                    </tr>
+                </table>    
+            </div>
             <img id="wolf_howling" alt="Wolf howling at moon" src="https://i.ibb.co/bz93mjK/wolf-howling-clear.jpg">
             <div class="informations" id="intro">
                 The Howling's<sup>&#174</sup> company is what you need!<br>
@@ -33,7 +66,7 @@
                 for the period of last 100 days, recording 4,597,497 in
                 trading volumes.
             </div>
-            <div id="down_bar">Today is: <span id="today_date"></span> Last modification done: <span id="last_modified"></span></div>
+            <div id="down_bar">Time: <span id="today_date"></span> Last modification: <span id="last_modified"></span></div>
         </div>
     </div>
 </body>

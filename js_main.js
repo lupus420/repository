@@ -10,3 +10,10 @@ function writeLastModificationDate(){
     string = document.lastModified  ;
     document.getElementById("last_modified").innerHTML = string;
 }
+
+function goToTitle(){
+    window.location.href="#title";
+}
+function goToPar1(){
+    window.location.href="#intro";
+}
